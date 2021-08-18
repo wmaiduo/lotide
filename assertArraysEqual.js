@@ -1,4 +1,4 @@
-const eqArrays = function (first, second) {
+const assertArraysEqual = function (first, second) {
   if (first.length !== second.length) {
     console.log(`${String.fromCodePoint(0x274C)} Assertion Failed: ${first} !== ${second}`);
     return;
@@ -12,4 +12,4 @@ const eqArrays = function (first, second) {
   return;
 }
 
-console.log(eqArrays([2,3],[2,3]));
+console.log(assertArraysEqual([2,3],[2,3]));
