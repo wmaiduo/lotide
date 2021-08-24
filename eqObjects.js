@@ -32,9 +32,11 @@ const eqObjects = function (object1, object2) {
   return;
 };
 
-  const ab = { a: "1", b: "2" };
-  const ba = { b: "2", a: "1" };
-  eqObjects(ab, ba); // => true
+module.exports = eqObjects;
 
-  const abc = { a: "1", b: "2", c: "3" };
-  eqObjects(ab, abc); // => false
+/* const ab = { a: "1", b: "2" };
+const ba = { b: "2", a: "1" };
+eqObjects(ab, ba); // => true
+
+const abc = { a: "1", b: "2", c: "3" };
+eqObjects(ab, abc); // => false */

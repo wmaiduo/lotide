@@ -37,5 +37,6 @@ const flatten = function(input) {
   return result;
 }
 
-let a = [1,2,[3,4],5];
-console.log(flatten(a));
+module.exports = flatten;
+/* let a = [1,2,[3,4],5];
+console.log(flatten(a)); */
