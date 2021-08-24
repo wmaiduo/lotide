@@ -12,4 +12,4 @@ const assertArraysEqual = function (first, second) {
   return;
 }
 
-console.log(assertArraysEqual([2,3],[2,3]));
+module.exports = assertArraysEqual;

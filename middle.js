@@ -8,4 +8,4 @@ const middle = function (array) {
   }
 };
 
-console.log(middle([1,2,3,5,6]));
+module.exports = middle;
